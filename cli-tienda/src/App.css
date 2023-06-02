@@ -1,0 +1,85 @@
+
+body{
+  background-color: rgb(36, 35, 35);
+  text-align: center;
+}
+
+.dividir{
+  display: flex;
+  width: 100%;
+}
+li,ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-color: rgba(104, 103, 103, 0.466);
+}
+
+h4{
+  border: 1px solid gray;
+  border-radius: 8px;
+  color: white;
+  background-color: rgba(143, 143, 143, 0.466);
+  padding-bottom: 5px;
+}
+
+.bienvenida{
+  width: 100%;
+  background-color: rgba(15, 157, 223, 0.938);
+  text-align: center;
+  margin-bottom: 80px;
+}
+.divOptions{
+  border: 1px solid gray; 
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.divOptions:hover{
+  border: 1px solid rgb(0, 153, 255); 
+  color: rgb(184, 181, 181);
+  border-radius: 4px;
+}
+.containerTable{
+  width: 180px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+}
+.container-getInformation{
+  display: flex;
+  color: white;
+  width: 50%;
+  justify-content: center;
+}
+.container-forms{
+  width: 520px;
+  
+}
+
+form{
+  background-color: rgba(104, 103, 103, 0.466);
+  border-radius: 8px;
+}
+form:hover{
+  background-color: rgba(104, 103, 103, 0.466);
+  border-radius: 8px;
+  box-shadow: 1px 4px 10px rgb(4, 141, 253);
+}
+
+.form-label{
+  margin-top: 5px;
+  color: white;
+}
+.form-control{
+  width: 342px;
+  margin: 0px auto;
+}
+
+button{
+  margin-bottom: 10px;
+}
